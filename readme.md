@@ -17,7 +17,7 @@
 ## 性能测试
 算法来自于论文Clustering by fast search and find of density peaks，实现过程中将δ和ρ的乘积较大的点作为聚类中心实现聚类，实现了较好的聚类结果。不同数据集对应的结果都存放在“测评结果”文件夹下相应的目录下了,每个目录中有四张图片，分别是该组数据集的决策图、γ分步图、聚类结图和实际结果图。
 
-###测评结果
+### 测评结果
 
 #### Aggregation
 ![Aggregation](https://github.com/TiYife/cluster/raw/master/Figure/Aggregation/决策图.png)
