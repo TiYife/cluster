@@ -139,9 +139,14 @@ colors = ['#a6cee3', '#1f78b4', '#b2df8a', '#33a02c', '#fb9a99',
 plt.rcParams['font.sans-serif'] = ['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
 plt.title("决策图")
-plt.plot(rho, delta, '.')
+#plt.plot(rho, delta, '.')
+for i in range(length):
+    plt.plot(rho[i], delta[i], 'g', marker='.')
+
+for i in centers:
+    plt.plot(rho[i], delta[i], 'k', marker='o', markersize=5)
 plt.xlabel('ρ'), plt.ylabel('δ')
-#plt.savefig(fileLoc + "/决策图.png")
+plt.savefig(fileLoc + "/决策图.png")
 plt.show()
 
 # -------------------------------------γ------------------------------------
@@ -156,7 +161,7 @@ for i in range(length):
 for i in centers:
     plt.plot(i, gama[i], 'k', marker='o', markersize=5)
 plt.xlabel('n'), plt.ylabel('γ')
-#plt.savefig(fileLoc + "/γ.png")
+plt.savefig(fileLoc + "/γ.png")
 plt.show()
 
 # -------------------------------------绘制聚类的聚类结果------------------------------------
@@ -172,7 +177,7 @@ for i in range(length):
 for i in centers:
     plt.plot(location[i][0], location[i][1], 'k', marker='o', markersize=5)
 plt.xlabel('x'), plt.ylabel('y')
-#plt.savefig(fileLoc + "/聚类结果图.png")
+plt.savefig(fileLoc + "/聚类结果图.png")
 plt.show()
 
 # -------------------------------------绘制原聚类结果------------------------------------
@@ -185,5 +190,5 @@ for i in range(length):
     index = label[i]
     plt.plot(location[i][0], location[i][1], color=colors[(3 * index) % 10], marker='.')
 plt.xlabel('x'), plt.ylabel('y')
-#plt.savefig(fileLoc + "/实际类别图.png")
+plt.savefig(fileLoc + "/实际类别图.png")
 plt.show()
