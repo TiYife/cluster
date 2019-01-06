@@ -1,6 +1,6 @@
 # 测评报告
 ## 数据来源
-测试所用的数据来自于一个叫做Clustering basic benchmark的网站（http://cs.joensuu.fi/sipu/datasets/），在网站中选取了Shape Sets下的几个数据集进行测试。
+测试所用的数据来自于一个叫做Clustering basic benchmark的网站（http://cs.joensuu.fi/sipu/datasets/）， 在网站中选取了Shape Sets下的几个数据集进行测试。
 该组数据集中数据为2维，并且包含了真实的聚类结果。
 数据集的具体信息如下：
 
@@ -18,35 +18,35 @@
 ###测评结果
 
 #### Aggregation
-![Aggregation](测评结果\Aggregation\决策图.png)
-![Aggregation](测评结果\Aggregation\γ.png)
-![Aggregation](测评结果\Aggregation\聚类结果图.png)
-![Aggregation](测评结果\Aggregation\实际类别图.png)
+![Aggregation](https://github.com/TiYife/cluster/raw/master/Figure/Aggregation/决策图.png)
+![Aggregation](https://github.com/TiYife/cluster/raw/master/Figure/Aggregation/γ.png)
+![Aggregation](https://github.com/TiYife/cluster/raw/master/Figure/Aggregation/聚类结果图.png)
+![Aggregation](https://github.com/TiYife/cluster/raw/master/Figure/Aggregation/实际类别图.png)
 
 
 #### D31
-![D31](测评结果\D31\决策图.png)
-![D31](测评结果\D31\γ.png)
-![D31](测评结果\D31\聚类结果图.png)
-![D31](测评结果\D31\实际类别图.png)
+![D31](https://github.com/TiYife/cluster/raw/master/Figure/D31/决策图.png)
+![D31](https://github.com/TiYife/cluster/raw/master/Figure/D31/γ.png)
+![D31](https://github.com/TiYife/cluster/raw/master/Figure/D31/聚类结果图.png)
+![D31](https://github.com/TiYife/cluster/raw/master/Figure/D31/实际类别图.png)
 
 #### Flame
-![Flame](测评结果\Flame\决策图.png)
-![Flame](测评结果\Flame\γ.png)
-![Flame](测评结果\Flame\聚类结果图.png)
-![Flame](测评结果\Flame\实际类别图.png)
+![Flame](https://github.com/TiYife/cluster/raw/master/Figure/Flame/决策图.png)
+![Flame](https://github.com/TiYife/cluster/raw/master/Figure/Flame/γ.png)
+![Flame](https://github.com/TiYife/cluster/raw/master/Figure/Flame/聚类结果图.png)
+![Flame](https://github.com/TiYife/cluster/raw/master/Figure/Flame/实际类别图.png)
 
 #### R15
-![R15](测评结果\R15\决策图.png)
-![R15](测评结果\R15\γ.png)
-![R15](测评结果\R15\聚类结果图.png)
-![R15](测评结果\R15\实际类别图.png)
+![R15](https://github.com/TiYife/cluster/raw/master/Figure/R15/决策图.png)
+![R15](https://github.com/TiYife/cluster/raw/master/Figure/R15/γ.png)
+![R15](https://github.com/TiYife/cluster/raw/master/Figure/R15/聚类结果图.png)
+![R15](https://github.com/TiYife/cluster/raw/master/Figure/R15/实际类别图.png)
 
 #### Spiral
-![Spiral](测评结果\Spiral\决策图.png)
-![Spiral](测评结果\Spiral\γ.png)
-![Spiral](测评结果\Spiral\聚类结果图.png)
-![Spiral](测评结果\Spiral\实际类别图.png)
+![Spiral](https://github.com/TiYife/cluster/raw/master/Figure/Spiral/决策图.png)
+![Spiral](https://github.com/TiYife/cluster/raw/master/Figure/Spiral/γ.png)
+![Spiral](https://github.com/TiYife/cluster/raw/master/Figure/Spiral/聚类结果图.png)
+![Spiral](https://github.com/TiYife/cluster/raw/master/Figure/Spiral/实际类别图.png)
 
 γ分步和聚类结果图中的黑色点代表聚类中心，每一种颜色代表一个聚类（由于只选取10中颜色空间，不同聚类可能会有相同颜色）。
 
