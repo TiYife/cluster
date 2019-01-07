@@ -1,6 +1,6 @@
 ## 算法来源
 
-算法来自于论文Clustering by fast search and find of density peaks，在实现过程中对博客 https://www.cnblogs.com/peghoty/p/3945653.html 和 https://blog.csdn.net/jdplus/article/details/40351541 进行了一定参考
+算法来自于论文Clustering by fast search and find of density peaks，在实现过程中对博客 https://www.cnblogs.com/peghoty/p/3945653.html 进行了一定参考
 ## 数据来源
 测试所用的数据来自于一个叫做Clustering basic benchmark的网站（http://cs.joensuu.fi/sipu/datasets/）， 在网站中选取了Shape Sets下的几个数据集进行测试。
 该组数据集中数据为2维，并且包含了真实的聚类结果。
